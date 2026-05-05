@@ -14,7 +14,7 @@ namespace ClinicaDocMais.Controllers
         {
             //a lógica para retornar os nomes dos pacientes (pelo menos 3)
             List<string> pacientesAtendidosHoje = new List<string>();
-            pacientesAtendidosHoje = ["Giovanni", "Ricardo", "Sérgio"];
+            pacientesAtendidosHoje = ["Giovanni", "Ricardo", "Sérgio, Carlos"];
             return pacientesAtendidosHoje;
         }
 
