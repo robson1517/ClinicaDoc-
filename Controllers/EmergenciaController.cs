@@ -36,7 +36,7 @@ namespace ClinicaDocMais.Controllers
         {
             PacienteModel novoPaciente = new PacienteModel("1019210", "Giovanni", "10/04/1999", "Vermelha");
             listaPaciente.Add(novoPaciente);
-            novoPaciente = new PacienteModel("1020220", "Eduarda", "15/03/1990", "Verde");
+            novoPaciente = new PacienteModel("1020220", "Eduarda", "15/03/1992", "Verde");
             listaPaciente.Add(novoPaciente);
             return listaPaciente;
         }

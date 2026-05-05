@@ -14,7 +14,7 @@ namespace ClinicaDocMais.Controllers
         public string cadastrarMedico([FromBody] MedicoModel medico)
         {
             listaMedicos.Add(medico);
-            return $"Dr. {medico.nome} cadastrado com sucesso";
+            return $"Dr. {medico.nome} cadastrado com sucesso!";
         }
 
         //listar os médicos
